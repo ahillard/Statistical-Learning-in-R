@@ -1,0 +1,37 @@
+Dataset:  lmr_levee.dat
+
+Source: A. Flor, N. Pinter, W.F. Remo (2010). "Evaluating Levee Failure
+Susceptibility on the Mississippi River Using Logistic Regression
+Analysis," Engineering Geology, Vol. 116, pp. 139-148.
+
+Description: Factors relating to presence/absence of a levee failure
+at a site on middle Mississippi River, with predictors:
+Site underlain by coarse-grain channel fill (sediment)
+Borrow pit indicator
+Meander location (1=Inside bend, 2=outside bend, 3=chute, 4=straight)
+channel width
+floodway width
+constriction factor
+land cover type (1=open water, 2=grassy, 3=agricultural, 4=forest)
+vegetative buffer width
+channel sinuosity 
+dredging intensity
+bank revetement
+
+
+Variables/Columns
+Failure   8  /* 1=Yes, 0=No  */
+year  12-16
+river mile   18-24
+sediments   32
+borrow pit    40
+meander     48
+channel width 50-56
+floodway width  58-64
+constriction factor  66-72
+land cover     80
+veg width    82-88
+sinuosity   90-96
+dredging    98-104
+revetement   112
+
